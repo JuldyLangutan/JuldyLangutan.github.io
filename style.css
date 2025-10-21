@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: gray;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 30px;
+}
+
+/* LEFT PANEL */
+.left-section {
+  width: 35%;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+.profile h1 {
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.profile h3 {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.contact, .about, .skills {
+  margin-top: 25px;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills li {
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+  padding-bottom: 5px;
+}
+
+/* RIGHT PANEL */
+.right-section {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.right-section h2 {
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.award-img {
+  width: 220px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+}
